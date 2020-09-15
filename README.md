@@ -19,10 +19,13 @@ export PROJECT=NewProjectName
 ```
 then do:
 ```bash
-git clone --depth=1 --branch=master git@github.com:techsolx/repobootstrap.git $PROJECT && \
-rm -rf ./$PROJECT/.git && \
+git clone --depth=1 --quiet --branch=master git@github.com:techsolx/repobootstrap.git $PROJECT && \
+cd ./$PROJECT && \
+rm -rf ./.git && \
 git init && \
-curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore && \
+unset PROJECT
+
 ```
 
 ### Assumptions:
