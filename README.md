@@ -7,9 +7,9 @@ This is a sample I use for [README.md](README.md) files,
 
 cd into the new repo and pull the files in individually like this:
 ```bash
-curl -O https://raw.githubusercontent.com/techsolx/my-readme/master/README.md & \
-curl -O https://raw.githubusercontent.com/techsolx/my-readme/master/LICENSE & \
-curl -O https://raw.githubusercontent.com/techsolx/my-editorconfig/master/.editorconfig & \
+curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/master/README.md & \
+curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/master/LICENSE & \
+curl -O https://raw.githubusercontent.com/techsolx/repobootsttrap/master/.editorconfig & \
 curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 ```
 
