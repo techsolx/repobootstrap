@@ -7,9 +7,9 @@ This is a sample I use for [README.md](README.md) files,
 
 cd into the new repo and pull the files in individually like this:
 ```bash
-curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/master/README.md & \
-curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/master/LICENSE & \
-curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/master/.editorconfig & \
+curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/main/README.md & \
+curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/main/LICENSE & \
+curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/main/.editorconfig & \
 curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 ```
 
@@ -19,7 +19,7 @@ export PROJECT=NewProjectName
 ```
 then do:
 ```bash
-git clone --depth=1 --quiet --branch=master git@github.com:techsolx/repobootstrap.git $PROJECT && \
+git clone --depth=1 --quiet --branch=main git@github.com:techsolx/repobootstrap.git $PROJECT && \
 cd ./$PROJECT && \
 rm -rf ./.git && \
 git init && \
