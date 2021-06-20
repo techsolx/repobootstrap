@@ -1,0 +1,22 @@
+repos:
+  - repo: git://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.45.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
+    hooks:
+      - id: terraform_fmt
+      - id: terraform_validate
+      - id: terraform_docs
+      - id: terraform_tflint
+  - repo: git://github.com/pre-commit/pre-commit-hooks
+    rev: v3.3.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: trailing-whitespace
+      - id: detect-aws-credentials
+      - id: detect-private-key
+      - id: end-of-file-fixer
+  - repo: git://github.com/psf/black
+    rev: 21.6b0
+    hooks:
+    - id: black
+      language_version: python3.9

@@ -10,6 +10,7 @@ cd into the new repo and pull the files in individually like this:
 curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/main/README.md & \
 curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/main/LICENSE & \
 curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/main/.editorconfig & \
+curl -O https://raw.githubusercontent.com/techsolx/repobootstrap/main/.pre-commit-config.yaml & \
 curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 ```
 
