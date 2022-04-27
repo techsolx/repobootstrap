@@ -60,8 +60,7 @@ Run tests to ensure that required is installed.
 
 ## Versioning
 
-Use [CalVer](https://calver.org/) for versioning. For the versions available,
-see the [tags on this repository](<project>/<repo>/tags). 
+The more I look the more I am a fan of semver...
 
 ## Authors
 
