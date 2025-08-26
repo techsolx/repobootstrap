@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.99.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
+    rev: v1.100.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
     hooks:
       - id: terraform_fmt
       - id: terraform_validate
@@ -19,7 +19,7 @@ repos:
           - '--args=--only=terraform_workspace_remote'
       - id: terraform_docs
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-json
       - id: check-merge-conflict
@@ -36,7 +36,7 @@ repos:
     - id: black
       language_version: python3.11
   - repo: https://github.com/compilerla/conventional-pre-commit
-    rev: v4.1.0
+    rev: v4.2.0
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
