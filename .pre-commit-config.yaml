@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.108.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
+    rev: v1.109.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
     hooks:
       - id: terraform_fmt
       - id: terraform_validate
@@ -34,7 +34,7 @@ repos:
     rev: 26.5.1
     hooks:
     - id: black
-      language_version: python3.11
+      language_version: python3.14
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v4.4.0
     hooks:
